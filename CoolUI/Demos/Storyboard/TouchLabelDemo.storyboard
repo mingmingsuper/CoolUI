@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YfW-IK-TjB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Touch Label DemoVC-->
+        <scene sceneID="GIv-rl-d6z">
+            <objects>
+                <viewController storyboardIdentifier="TouchLabelDemo" id="YfW-IK-TjB" customClass="TouchLabelDemoVC" customModule="CoolUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D0H-eZ-gNG"/>
+                        <viewControllerLayoutGuide type="bottom" id="N3T-IP-S79"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XGx-MR-Fze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDT-B1-jOd" customClass="TouchLabel" customModule="CoolUI" customModuleProvider="target">
+                                <rect key="frame" x="166.5" y="70" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmF-ni-Qjt">
+                                <rect key="frame" x="166" y="142" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NDT-B1-jOd" firstAttribute="top" secondItem="D0H-eZ-gNG" secondAttribute="bottom" constant="50" id="DC2-NR-zfK"/>
+                            <constraint firstItem="NDT-B1-jOd" firstAttribute="centerX" secondItem="XGx-MR-Fze" secondAttribute="centerX" id="Kqz-GY-sRQ"/>
+                            <constraint firstItem="HmF-ni-Qjt" firstAttribute="top" secondItem="NDT-B1-jOd" secondAttribute="bottom" constant="51" id="Tso-g9-fnr"/>
+                            <constraint firstItem="HmF-ni-Qjt" firstAttribute="centerX" secondItem="XGx-MR-Fze" secondAttribute="centerX" id="ZcX-EC-7PF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mMsgLabel" destination="HmF-ni-Qjt" id="Z4x-G3-YyU"/>
+                        <outlet property="mTouchLabel" destination="NDT-B1-jOd" id="hVc-gR-BTM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2E-Xb-Euj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="-200"/>
+        </scene>
+    </scenes>
+</document>

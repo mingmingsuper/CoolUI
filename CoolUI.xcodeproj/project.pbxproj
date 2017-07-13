@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9692A6481F17611900A3E9D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6471F17611900A3E9D9 /* AppDelegate.swift */; };
+		9692A64A1F17611900A3E9D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6491F17611900A3E9D9 /* ViewController.swift */; };
+		9692A64D1F17611900A3E9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9692A64B1F17611900A3E9D9 /* Main.storyboard */; };
+		9692A64F1F17611900A3E9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9692A64E1F17611900A3E9D9 /* Assets.xcassets */; };
+		9692A6521F17611900A3E9D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9692A6501F17611900A3E9D9 /* LaunchScreen.storyboard */; };
+		9692A65E1F1761D700A3E9D9 /* TouchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A65D1F1761D700A3E9D9 /* TouchLabel.swift */; };
+		9692A6611F176D8800A3E9D9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6601F176D8800A3E9D9 /* Extensions.swift */; };
+		9692A6651F1771EE00A3E9D9 /* DemoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6641F1771EE00A3E9D9 /* DemoItemCell.swift */; };
+		9692A6671F17722800A3E9D9 /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6661F17722800A3E9D9 /* DemoViewModel.swift */; };
+		9692A66A1F17727600A3E9D9 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6691F17727600A3E9D9 /* CellModel.swift */; };
+		9692A66D1F1774AA00A3E9D9 /* TouchLabelDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9692A66C1F1774AA00A3E9D9 /* TouchLabelDemo.storyboard */; };
+		9692A6701F177A1D00A3E9D9 /* TouchLabelDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A66F1F177A1D00A3E9D9 /* TouchLabelDemoVC.swift */; };
+		9692A6721F177D7800A3E9D9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A6711F177D7800A3E9D9 /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9692A6441F17611900A3E9D9 /* CoolUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9692A6471F17611900A3E9D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9692A6491F17611900A3E9D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9692A64C1F17611900A3E9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9692A64E1F17611900A3E9D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9692A6511F17611900A3E9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9692A6531F17611900A3E9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9692A65D1F1761D700A3E9D9 /* TouchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchLabel.swift; sourceTree = "<group>"; };
+		9692A6601F176D8800A3E9D9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9692A6641F1771EE00A3E9D9 /* DemoItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoItemCell.swift; sourceTree = "<group>"; };
+		9692A6661F17722800A3E9D9 /* DemoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
+		9692A6691F17727600A3E9D9 /* CellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		9692A66C1F1774AA00A3E9D9 /* TouchLabelDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TouchLabelDemo.storyboard; sourceTree = "<group>"; };
+		9692A66F1F177A1D00A3E9D9 /* TouchLabelDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchLabelDemoVC.swift; sourceTree = "<group>"; };
+		9692A6711F177D7800A3E9D9 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9692A6411F17611900A3E9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9692A63B1F17611900A3E9D9 = {
+			isa = PBXGroup;
+			children = (
+				9692A6461F17611900A3E9D9 /* CoolUI */,
+				9692A6451F17611900A3E9D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9692A6451F17611900A3E9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9692A6441F17611900A3E9D9 /* CoolUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9692A6461F17611900A3E9D9 /* CoolUI */ = {
+			isa = PBXGroup;
+			children = (
+				9692A6621F1771C000A3E9D9 /* Demos */,
+				9692A65F1F176D7200A3E9D9 /* Utils */,
+				9692A65C1F1761D700A3E9D9 /* TouchLabel */,
+				9692A6471F17611900A3E9D9 /* AppDelegate.swift */,
+				9692A6491F17611900A3E9D9 /* ViewController.swift */,
+				9692A64B1F17611900A3E9D9 /* Main.storyboard */,
+				9692A64E1F17611900A3E9D9 /* Assets.xcassets */,
+				9692A6501F17611900A3E9D9 /* LaunchScreen.storyboard */,
+				9692A6531F17611900A3E9D9 /* Info.plist */,
+			);
+			path = CoolUI;
+			sourceTree = "<group>";
+		};
+		9692A65C1F1761D700A3E9D9 /* TouchLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9692A65D1F1761D700A3E9D9 /* TouchLabel.swift */,
+			);
+			path = TouchLabel;
+			sourceTree = "<group>";
+		};
+		9692A65F1F176D7200A3E9D9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9692A6601F176D8800A3E9D9 /* Extensions.swift */,
+				9692A6711F177D7800A3E9D9 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9692A6621F1771C000A3E9D9 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				9692A66E1F177A0000A3E9D9 /* Controllers */,
+				9692A66B1F17748E00A3E9D9 /* Storyboard */,
+				9692A6681F17724F00A3E9D9 /* Model */,
+				9692A6631F1771C800A3E9D9 /* Cells */,
+				9692A6661F17722800A3E9D9 /* DemoViewModel.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		9692A6631F1771C800A3E9D9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9692A6641F1771EE00A3E9D9 /* DemoItemCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9692A6681F17724F00A3E9D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9692A6691F17727600A3E9D9 /* CellModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9692A66B1F17748E00A3E9D9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9692A66C1F1774AA00A3E9D9 /* TouchLabelDemo.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9692A66E1F177A0000A3E9D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9692A66F1F177A1D00A3E9D9 /* TouchLabelDemoVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9692A6431F17611900A3E9D9 /* CoolUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9692A6561F17611900A3E9D9 /* Build configuration list for PBXNativeTarget "CoolUI" */;
+			buildPhases = (
+				9692A6401F17611900A3E9D9 /* Sources */,
+				9692A6411F17611900A3E9D9 /* Frameworks */,
+				9692A6421F17611900A3E9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolUI;
+			productName = CoolUI;
+			productReference = 9692A6441F17611900A3E9D9 /* CoolUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9692A63C1F17611900A3E9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LMM;
+				TargetAttributes = {
+					9692A6431F17611900A3E9D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33QCT42BS2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9692A63F1F17611900A3E9D9 /* Build configuration list for PBXProject "CoolUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9692A63B1F17611900A3E9D9;
+			productRefGroup = 9692A6451F17611900A3E9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9692A6431F17611900A3E9D9 /* CoolUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9692A6421F17611900A3E9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9692A66D1F1774AA00A3E9D9 /* TouchLabelDemo.storyboard in Resources */,
+				9692A6521F17611900A3E9D9 /* LaunchScreen.storyboard in Resources */,
+				9692A64F1F17611900A3E9D9 /* Assets.xcassets in Resources */,
+				9692A64D1F17611900A3E9D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9692A6401F17611900A3E9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9692A64A1F17611900A3E9D9 /* ViewController.swift in Sources */,
+				9692A6721F177D7800A3E9D9 /* Colors.swift in Sources */,
+				9692A6671F17722800A3E9D9 /* DemoViewModel.swift in Sources */,
+				9692A65E1F1761D700A3E9D9 /* TouchLabel.swift in Sources */,
+				9692A6481F17611900A3E9D9 /* AppDelegate.swift in Sources */,
+				9692A66A1F17727600A3E9D9 /* CellModel.swift in Sources */,
+				9692A6651F1771EE00A3E9D9 /* DemoItemCell.swift in Sources */,
+				9692A6611F176D8800A3E9D9 /* Extensions.swift in Sources */,
+				9692A6701F177A1D00A3E9D9 /* TouchLabelDemoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9692A64B1F17611900A3E9D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9692A64C1F17611900A3E9D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9692A6501F17611900A3E9D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9692A6511F17611900A3E9D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9692A6541F17611900A3E9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9692A6551F17611900A3E9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9692A6571F17611900A3E9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33QCT42BS2;
+				INFOPLIST_FILE = CoolUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lmm.CoolUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9692A6581F17611900A3E9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33QCT42BS2;
+				INFOPLIST_FILE = CoolUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lmm.CoolUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9692A63F1F17611900A3E9D9 /* Build configuration list for PBXProject "CoolUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9692A6541F17611900A3E9D9 /* Debug */,
+				9692A6551F17611900A3E9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9692A6561F17611900A3E9D9 /* Build configuration list for PBXNativeTarget "CoolUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9692A6571F17611900A3E9D9 /* Debug */,
+				9692A6581F17611900A3E9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9692A63C1F17611900A3E9D9 /* Project object */;
+}
